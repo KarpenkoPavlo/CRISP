@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+/*zeroing*/
+*,
+*::before,
+*::after {
+ padding: 0;
+ margin: 0;
+ bottom: 0;
+ box-sizing: border-box;
+}
+html,
+body {
+ height: 100%;
+ line-height: 1;
+}
+a {
+ text-decoration: none;
+ color: inherit;
+}
+ul,
+ol,
+li {
+ list-style: none;
+}
+img {
+ vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-weight: inherit;
+ font-size: inherit;
+}
+button,
+input {
+ font-weight: inherit;
+ font-size: inherit;
+ color: inherit;
+ font-family: inherit;
+}
+button {
+ cursor: pointer;
+ background-color: inherit;
+ border: none;
+}
+
+/*----------------*/
+
+body {
+ /* font-family: ;
+ font-size: ;
+ font-weight: ; */
+ background-color: #fff;
+}
+.wrapper {
+ min-height: 100%;
+ overflow: clip;
+}
+[class*="__container"] {
+ max-width: 1878px;
+ margin: 0 auto;
+ padding: 36.5px 21px 40px 21px;
+}
+
+/*------------------*/
+
+.header {
+ color: #fff;
+ background-color: #000;
+ font-size: 14px;
+ line-height: 20.75px;
+ font-family: Oswald;
+}
+.header__container {
+ color: #fff;
+ display: flex;
+ align-items: center;
+}
+.headerLogo {
+}
+.header__menu {
+ margin-left: auto;
+}
+.menu__items {
+ display: flex;
+ column-gap: 28px;
+}
+.items__item {
+}
+.header__register {
+ display: flex;
+ margin-left: auto;
+ margin-right: 1.9375rem;
+ column-gap: 12px;
+}
+.register__sign {
+}
+.register__create {
+}
+.header__shop {
+ display: flex;
+ column-gap: 7px;
+ margin-right: 7px;
+}
+.shop__add {
+}
+.shop__buy {
+}
+.header__shopingCart {
+
+}
+.shopCart__text {
+ font-size: 12px;
+}
+.shopCart__subtext {
+ line-height: 30px;
+ font-family: Roboto;
+}
