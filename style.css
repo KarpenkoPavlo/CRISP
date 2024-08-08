@@ -91,6 +91,20 @@ body {
 }
 .items__item {
 }
+.search {
+ position: relative;
+ padding-left: 20px;
+}
+.search::before {
+ content: "";
+ position: absolute;
+ left: 0;
+ width: 16px;
+ height: 16px;
+ transform: translateY(-25%);
+ background-image: url(/img/search.svg);
+ background-size: cover;
+}
 .header__register {
  display: flex;
  margin-left: auto;
@@ -111,12 +125,35 @@ body {
 .shop__buy {
 }
 .header__shopingCart {
-
 }
 .shopCart__text {
  font-size: 12px;
+ font-family: Roboto;
 }
 .shopCart__subtext {
- line-height: 30px;
  font-family: Roboto;
+}
+
+/*---------------------*/
+.main {
+}
+.main__container {
+ background-image: url(/img/main-page/background.jpg);
+
+}
+.main-topblock {
+}
+.topblock-left {
+}
+.left-text {
+}
+.textprocent {
+}
+.text-right {
+}
+.right-girlsmall {
+}
+.right-girlbig {
+}
+.topblock-rigth {
 }
